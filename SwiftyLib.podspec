@@ -2,7 +2,7 @@
 #  Be sure to run `pod spec lint SwiftyLib.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
-#  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
+#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SwiftyLib"
   spec.version      = "0.0.1"
-  spec.summary      = "A CocoaPods library written in Swift"
+  spec.summary      = "A short description of SwiftyLib."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "https://github.com/jeantimex/SwiftyLib"
+  spec.homepage     = "http://EXAMPLE/SwiftyLib"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +38,8 @@ This CocoaPods library helps you perform calculation.
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT (example)"
+  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,10 +52,10 @@ This CocoaPods library helps you perform calculation.
   #  profile URL.
   #
 
-  spec.author             = { "jeantimex" => "jean.timex@gmail.com" }
-  # Or just: spec.author    = "jeantimex"
-  # spec.authors            = { "jeantimex" => "jean.timex@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/jeantimex"
+  spec.author             = { "rimmideshlahra" => "" }
+  # Or just: spec.author    = "rimmideshlahra"
+  # spec.authors            = { "rimmideshlahra" => "" }
+  # spec.social_media_url   = "https://twitter.com/rimmideshlahra"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -68,12 +67,10 @@ This CocoaPods library helps you perform calculation.
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "12.1"
+  # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-
-  spec.swift_version = "4.2"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -82,7 +79,7 @@ This CocoaPods library helps you perform calculation.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jeantimex/SwiftyLib.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://EXAMPLE/SwiftyLib.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,8 +90,8 @@ This CocoaPods library helps you perform calculation.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SwiftyLib/**/*.{h,m,swift}"
-  # spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

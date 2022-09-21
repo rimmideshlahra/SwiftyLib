@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1A0B111822227A9D00D693FC /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0B110E22227A9D00D693FC /* SwiftyLib.framework */; };
-		1A0B111D22227A9D00D693FC /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B111C22227A9D00D693FC /* SwiftyLibTests.swift */; };
 		1A0B111F22227A9D00D693FC /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0B111122227A9D00D693FC /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A0B112F2222810C00D693FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B112E2222810C00D693FC /* AppDelegate.swift */; };
 		1A0B11312222810C00D693FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B11302222810C00D693FC /* ViewController.swift */; };
@@ -16,7 +15,7 @@
 		1A0B11362222810E00D693FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B11352222810E00D693FC /* Assets.xcassets */; };
 		1A0B11392222810E00D693FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B11372222810E00D693FC /* LaunchScreen.storyboard */; };
 		1A0B113F22231B5500D693FC /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B113E22231B5500D693FC /* SwiftyLib.swift */; };
-		F42154E028DAF12F00B7593C /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B111C22227A9D00D693FC /* SwiftyLibTests.swift */; };
+		F42154E228DB098800B7593C /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B111C22227A9D00D693FC /* SwiftyLibTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -266,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0B113F22231B5500D693FC /* SwiftyLib.swift in Sources */,
+				F42154E228DB098800B7593C /* SwiftyLibTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0B111D22227A9D00D693FC /* SwiftyLibTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42154E028DAF12F00B7593C /* SwiftyLibTests.swift in Sources */,
 				1A0B11312222810C00D693FC /* ViewController.swift in Sources */,
 				1A0B112F2222810C00D693FC /* AppDelegate.swift in Sources */,
 			);
